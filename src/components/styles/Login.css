@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700;900&display=swap');
+
+.login{
+    
+    background-color: #fff;
+
+    border: 1px ridge #b3b6b9;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+
+    width: 25%;
+
+    padding: 2%;
+    
+    font-family: Roboto;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/*--------Imagen de Sedalp---------------*/
+.img-Login{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.img-Login img{
+    width: 80%;
+}
+/*---------------------------------------*/
+
+/*---------------Formulario---------------*/
+.formulario-Login{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+
+    color: #4e5154;
+
+    font-size: medium;
+}
+
+.formulario-Login input{
+    margin-bottom: 10%;
+    border-radius: 10px;
+
+    outline: none;
+
+    box-sizing: border-box;
+
+    height: 45px;
+
+    padding: 10px;    
+}
+
+.boton-Ingresar{
+    background-color: #197727;
+    font-size: larger;
+    color: #fff;
+
+    border: none;
+}
+/*---------------------------------------*/

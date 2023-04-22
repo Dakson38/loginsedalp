@@ -4,7 +4,7 @@
     
     background-color: #fff;
 
-    border: 1px ridge #b3b6b9;
+    border: 2px solid #b3b6b9;
     border-radius: 10px;
 
     display: flex;
@@ -49,6 +49,7 @@
 
 .formulario-Login input{
     margin-bottom: 10%;
+    border: 1px ridge #b3b6b9 ;
     border-radius: 10px;
 
     outline: none;

@@ -40,6 +40,7 @@
 .formulario-Login{
     display: flex;
     flex-direction: column;
+    gap: 10px;
     margin-top: 5%;
 
     color: #4e5154;
@@ -48,7 +49,7 @@
 }
 
 .formulario-Login input{
-    margin-bottom: 10%;
+    margin-bottom: 6%;
     border: 1px ridge #b3b6b9 ;
     border-radius: 10px;
 
